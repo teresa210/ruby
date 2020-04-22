@@ -15,12 +15,10 @@ class Adam
         puts "#{month} #{day}".capitalize!
     end
 
-    # ! is a bang and it will change the object to the output instead of just changing the output
-
-    def 
-
+    def say_hello(name)
+        puts "Hello #{name}".gsub("adam", "Adam Wu")
     end
 
-
+    # ! is a bang and it will change the object to the output instead of just changing the output
   
   end
